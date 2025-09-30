@@ -7,44 +7,127 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Hi, I'm Kenny! <br/>
+        <a href="https://github.com/Kennyalfredo">Programmer</a>, 
+        <a href="https://www.linkedin.com/in/kenny-aranda-197019212">Cybersecurity Professional</a>.
+      </h1>
+      <p>📍 Jacksonville, FL | 📧 <a href="mailto:kennyaranda46@gmail.com">kennyaranda46@gmail.com</a></p>
+      <hr/>
+
+      <section>
+        <h2>🚀 About Me</h2>
+        <p>I’m a cybersecurity professional and software developer with hands-on experience in <b>penetration testing, vulnerability assessments, mobile app security (iOS & Android), and red team operations</b>.</p>
+        <ul>
+          <li>🛡 Skilled at identifying and mitigating security risks across enterprise environments.</li>
+          <li>⚡ Experienced in <b>cloud security (AWS, Azure, GCP)</b> and building scalable, secure systems.</li>
+          <li>🔍 Active <b>bug bounty hunter on HackerOne</b>, passionate about offensive security.</li>
+          <li>📚 Certified in <b>Burp Suite, eJPT, and Linux Essentials</b>, with additional training in red team operations and cloud security.</li>
+        </ul>
+      </section>
+      <hr/>
+
+      <section>
+        <h2>🏆 Certifications</h2>
+        <ul>
+          <li><b>Burp Suite Certified Practitioner</b></li>
+          <li><b>eJPT – Junior Penetration Tester</b></li>
+          <li><b>CyberWarfare Certified Red Team Analyst</b></li>
+          <li><b>Multi-Cloud Red Team Analyst (MCRTA)</b></li>
+          <li><b>LPI Linux Essentials</b></li>
+          <li><b>AWS Cloud Technical Essentials</b></li>
+          <li><b>Cisco Intro to Cybersecurity</b></li>
+        </ul>
+      </section>
+      <hr/>
+
+      <section>
+        <h2>📂 Software Development Projects:</h2>
+        <ul>
+          <li><b>JSON-interpreter</b> - <a href="https://github.com/Kennyalfredo/JSON-interpreter-Spring-2024">JSON-interpreter</a></li>
+          <li><b>Pref Agent</b> - <a href="https://github.com/Kennyalfredo/Preference-Agent-PrefAgent--Spring2024">Pref Agent</a></li>
+          <li><b>Pokemon Stadium data structure</b> - <a href="https://github.com/Kennyalfredo/Pokemon-stadium-IntroToAI-Spring2024">Pokemon Stadium</a></li>
+          <li><b>Addressing a machine learning problem</b> - <a href="https://github.com/Kennyalfredo/Addressing-a-machine-learning-problem-Spring-2024">Machine learning problem</a></li>
+          <li><b>Hotel Program</b> - <a href="https://github.com/Kennyalfredo/OOP-Hotel-program-Fall2020">OOP Hotel Program</a></li>
+        </ul>
+      </section>
+      <hr/>
+
+      <section>
+        <h2>📂 Cybersecurity Projects:</h2>
+        <ul>
+          <li><b>HackerOne Bug Bounty Program</b> - Reported Improper Handling of Card Type in Affirm Virtual Card API</li>
+          <li><b>Burp Suite Labs Writeup</b> - <a href="https://github.com/Kennyalfredo/portswigger-labs-writeups">Burp Certification Labs Writeups</a></li>
+          <li><b>CORS POC</b> - <a href="https://github.com/Kennyalfredo/CORS-POC">CORS vulnerability</a></li>
+        </ul>
+      </section>
+      <hr/>
+
+      <section>
+        <h2>🧑‍💻 Experience</h2>
+        <h3>🔓 Pentester @ Syscloud (2024–Present)</h3>
+        <ul>
+          <li>Performed <b>50+ vulnerability assessments</b> using Nmap, Nessus, and Burp Suite Pro, reducing exploitable risks by 40%.</li>
+          <li>Conducted <b>Active Directory exploitation</b> (BloodHound, SharpHound, PowerView).</li>
+          <li>Led investigations into phishing & malware attacks, reducing incident success rates by 30%.</li>
+          <li>Built <b>custom exploits in Python & PowerShell</b> simulating real-world attack scenarios.</li>
+          <li>Delivered <b>100+ page professional pentest reports</b> with actionable remediation steps.</li>
+        </ul>
+        <h3>💻 Junior Software Developer @ Algorithmics (2021–2024)</h3>
+        <ul>
+          <li>Built full-stack web apps (React, Node.js, MongoDB).</li>
+          <li>Improved stability by <b>30% fewer bugs</b> through automated testing (JUnit, PyTest).</li>
+          <li>Collaborated with UX/UI teams in Agile.</li>
+        </ul>
+      </section>
+      <hr/>
+
+      <section>
+        <h2>🔧 Technical Skills</h2>
+        <ul>
+          <li><b>Pentesting Tools:</b> Burp Suite, OWASP ZAP, Nmap, Nessus Pro, Wireshark, SQLmap, Hydra, Feroxbuster</li>
+          <li><b>Languages:</b> Python, Java, C/C++, SQL, JavaScript</li>
+          <li><b>Frameworks:</b> Metasploit, React, Node.js</li>
+          <li><b>Cloud Platforms:</b> AWS, Azure, GCP</li>
+          <li><b>Other:</b> Git, Docker, LaTeX, WordPress</li>
+        </ul>
+      </section>
+      <hr/>
+
+      <section>
+        <h2>🎤 Events & Conferences</h2>
+        <ul>
+          <li>🐍 <b>PyCon Colombia 2024</b> – Python packaging & open-source contributions.</li>
+          <li>🕵️ <b>Black Hat USA 2024</b> – Attended workshops on the latest threat landscapes.</li>
+          <li>👾 <b>DEFCON USA 2024</b> – Capture the Flag competitions.</li>
+          <li>🔴 <b>Ekoparty 2024</b> – Red team & AI-focused security talks.</li>
+        </ul>
+      </section>
+      <hr/>
+
+      <section>
+        <h2>🤳 Connect with me:</h2>
+        <p>
+          <a href="https://x.com/KennyAranda" target="_blank" rel="noopener noreferrer">
+            <img alt="Twitter" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+          </a>
+          <a href="https://www.linkedin.com/in/kenny-aranda-197019212" target="_blank" rel="noopener noreferrer">
+            <img alt="LinkedIn" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+          </a>
+          <a href="https://www.instagram.com/kennyalfredo/" target="_blank" rel="noopener noreferrer">
+            <img alt="Instagram" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+          </a>
+        </p>
+      </section>
+
+      <hr />
+      <p>⭐️ <i>Always learning, hacking, and building secure systems.</i></p>
+    </main>
+    <Footer />
+  </body>
 </html>
