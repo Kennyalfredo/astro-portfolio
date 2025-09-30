@@ -11,17 +11,20 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
-    <Header />
+    <Header/>
     <main>
-      <h1>Hi, I'm Kenny! <br/>
-        <a href="https://github.com/Kennyalfredo">Programmer</a>, 
-        <a href="https://www.linkedin.com/in/kenny-aranda-197019212">Cybersecurity Professional</a>.
-      </h1>
-      <p>📍 Jacksonville, FL | 📧 <a href="mailto:kennyaranda46@gmail.com">kennyaranda46@gmail.com</a></p>
-      <hr/>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+    <img 
+      src="/public/profile-picture.png" 
+      alt="Kenny Alfredo" 
+      style="width:200px; height:200px; object-fit:cover; border-radius: 50%; margin-bottom: 24px;"
+    />
+    <h4 style="text-align: center;">Hi, I'm Kenny!, Programmer, Cybersecurity Professional.</h4>
+    <p style="text-align: center;">📍 Jacksonville, FL | 📧 <a href="mailto:kennyaranda46@gmail.com">kennyaranda46@gmail.com</a></p>
+  </div>
 
       <section>
-        <h2>🚀 About Me</h2>
+        <h4>🚀 About Me</h4>
         <p>I’m a cybersecurity professional and software developer with hands-on experience in <b>penetration testing, vulnerability assessments, mobile app security (iOS & Android), and red team operations</b>.</p>
         <ul>
           <li>🛡 Skilled at identifying and mitigating security risks across enterprise environments.</li>
@@ -33,7 +36,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       <hr/>
 
       <section>
-        <h2>🏆 Certifications</h2>
+        <h4>🏆 Certifications</h4>
         <ul>
           <li><b>Burp Suite Certified Practitioner</b></li>
           <li><b>eJPT – Junior Penetration Tester</b></li>
@@ -47,7 +50,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       <hr/>
 
       <section>
-        <h2>📂 Software Development Projects:</h2>
+        <h4>📂 Software Development Projects:</h4>
         <ul>
           <li><b>JSON-interpreter</b> - <a href="https://github.com/Kennyalfredo/JSON-interpreter-Spring-2024">JSON-interpreter</a></li>
           <li><b>Pref Agent</b> - <a href="https://github.com/Kennyalfredo/Preference-Agent-PrefAgent--Spring2024">Pref Agent</a></li>
@@ -59,7 +62,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       <hr/>
 
       <section>
-        <h2>📂 Cybersecurity Projects:</h2>
+        <h4>📂 Cybersecurity Projects:</h4>
         <ul>
           <li><b>HackerOne Bug Bounty Program</b> - Reported Improper Handling of Card Type in Affirm Virtual Card API</li>
           <li><b>Burp Suite Labs Writeup</b> - <a href="https://github.com/Kennyalfredo/portswigger-labs-writeups">Burp Certification Labs Writeups</a></li>
@@ -69,8 +72,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       <hr/>
 
       <section>
-        <h2>🧑‍💻 Experience</h2>
-        <h3>🔓 Pentester @ Syscloud (2024–Present)</h3>
+        <h4>🧑‍💻 Experience</h4>
+        <h5>🔓 Pentester @ Syscloud (2024–Present)</h5>
         <ul>
           <li>Performed <b>50+ vulnerability assessments</b> using Nmap, Nessus, and Burp Suite Pro, reducing exploitable risks by 40%.</li>
           <li>Conducted <b>Active Directory exploitation</b> (BloodHound, SharpHound, PowerView).</li>
@@ -78,7 +81,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
           <li>Built <b>custom exploits in Python & PowerShell</b> simulating real-world attack scenarios.</li>
           <li>Delivered <b>100+ page professional pentest reports</b> with actionable remediation steps.</li>
         </ul>
-        <h3>💻 Junior Software Developer @ Algorithmics (2021–2024)</h3>
+        <h5>💻 Junior Software Developer @ Algorithmics (2021–2024)</h5>
         <ul>
           <li>Built full-stack web apps (React, Node.js, MongoDB).</li>
           <li>Improved stability by <b>30% fewer bugs</b> through automated testing (JUnit, PyTest).</li>
@@ -88,7 +91,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       <hr/>
 
       <section>
-        <h2>🔧 Technical Skills</h2>
+        <h4>🔧 Technical Skills</h4>
         <ul>
           <li><b>Pentesting Tools:</b> Burp Suite, OWASP ZAP, Nmap, Nessus Pro, Wireshark, SQLmap, Hydra, Feroxbuster</li>
           <li><b>Languages:</b> Python, Java, C/C++, SQL, JavaScript</li>
@@ -100,7 +103,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       <hr/>
 
       <section>
-        <h2>🎤 Events & Conferences</h2>
+        <h4>🎤 Events & Conferences</h4>
         <ul>
           <li>🐍 <b>PyCon Colombia 2024</b> – Python packaging & open-source contributions.</li>
           <li>🕵️ <b>Black Hat USA 2024</b> – Attended workshops on the latest threat landscapes.</li>
@@ -111,7 +114,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       <hr/>
 
       <section>
-        <h2>🤳 Connect with me:</h2>
+        <h4>🤳 Connect with me:</h4>
         <p>
           <a href="https://x.com/KennyAranda" target="_blank" rel="noopener noreferrer">
             <img alt="Twitter" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
