@@ -19,10 +19,10 @@ In this post, I want to share my journey preparing for and successfully achievin
 
 I followed a structured plan to cover all exam objectives:
 
-- Thoroughly studied the official course materials and labs
-- Practiced vulnerable machines and systems in a lab environment
-- Used additional resources like forums, videos, and practice tests
-- Maintained consistent daily study habits over several weeks
+- Thoroughly studied the official course materials and labs.
+- Practiced vulnerable machines and systems in a lab environment.
+- Used additional resources like forums, videos, and practice tests.
+- Maintained consistent daily study habits over several weeks.
 
 ### Exam Experience
 
@@ -30,7 +30,8 @@ The exam involved practical tasks requiring you to apply penetration testing tec
 
 - Realistic penetration testing scenarios
 - Time management was crucial to complete all exercises
-- Demonstrated skills in reconnaissance, scanning, exploitation, and reporting
+- Demonstrated skills in reconnaissance, scanning, exploitation.
+- If you do a good graphic of the networks you have access to, then you have 50% chance of getting the exam.
 
 ### Key Takeaways
 
