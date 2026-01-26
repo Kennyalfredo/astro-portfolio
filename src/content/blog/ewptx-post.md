@@ -19,7 +19,7 @@ In this post, I want to share my journey preparing for and successfully achievin
 
 Given the "eXtreme" nature of this exam, I had to refine my study methodology:
 
-- ** INE/eLearnSecurity Courseware:** I focused heavily on the modules regarding XML External Entity (XXE), Java Deserialization, and Server-Side Template Injection (SSTI).
+- **INE/eLearnSecurity Courseware:** I focused heavily on the modules regarding XML External Entity (XXE), Java Deserialization, and Server-Side Template Injection (SSTI).
 - **PortSwigger Web Security Academy:** I supplemented the official course by grinding through Practitioner and Expert level labs on PortSwigger to sharpen my Burp Suite skills.
 - **Custom Payload Lists:** I spent time building my own lists for fuzzing, specifically targeting different encoding methods to bypass filters.
 - **Code Review:** I refreshed my PHP and Java knowledge to better predict backend behavior when operating blind.
@@ -56,4 +56,4 @@ If you have any questions about the exam or want to discuss advanced WAF bypass 
 
 ⭐️ *Always learning, hacking, and building secure systems.*
 
-![ewptx diploma](/ewptx-diploma.png)
+![ewptx diploma](/exptx-diploma.png)
